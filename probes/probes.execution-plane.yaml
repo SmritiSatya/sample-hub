@@ -1,0 +1,4 @@
+probes:
+- infraType: Kubernetes
+  name: test-demo-sling
+  type: httpProbe

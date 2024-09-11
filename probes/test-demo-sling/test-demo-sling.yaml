@@ -1,0 +1,14 @@
+httpProbe/inputs:
+  method:
+    get:
+      criteria: ==
+      responseCode: "200"
+  url: http://google.com
+mode: Continuous
+name: test-demo-sling
+runProperties:
+  attempt: 1
+  interval: 2s
+  probePollingInterval: 1s
+  probeTimeout: 10s
+type: httpProbe
